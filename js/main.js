@@ -93,12 +93,18 @@
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        items: 1,
-        dots: true,
-        loop: true,
-    });
+    autoplay: true,
+
+    smartSpeed: 2000,
+    items: 1,
+    dots: true,
+    loop: true,
+});
+
     
 })(jQuery);
+
+document.getElementById("copyrightYear").textContent = new Date().getFullYear();
+
+
 
